@@ -43,7 +43,6 @@ class Feed extends Component {
                    dataSource: this.state.dataSource
                        .cloneWithRows(feedItems)
                });
-               console.log(this.state.dataSource);
            })
         });
     }
